@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 5rem auto;
+  top: 0;
+  max-width: 32rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .container-2 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.container .container-2 h1 {
+  color: #09266e;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  line-height: 20px;
+  margin: 0;
+  width: 90%;
+}
+
+.container .container-2 .cycle {
+  background-color: rgb(255, 255, 255);
+  color: #3b3b3b;
+  border: none;
+  width: 8%;
+}
+
+.container .new-list {
+  width: 100%;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  border-bottom: 2px solid rgba(5, 2, 2, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .new-list .input {
+  width: 100%;
+  padding: 0 2.5rem 0 1rem;
+  line-height: 3rem;
+  height: 3rem;
+  border: none;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.container .new-list .button-1 {
+  width: 2.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  transform: rotate(90deg);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.container .display {
+  list-style: none;
+  width: 100%;
+}
+
+.container .display .list-1 {
+  width: 100%;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(7, 7, 7, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .display .list-1 .list-2 {
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem 0 1rem;
+  width: 100%;
+}
+
+.container .display .list-1 .list-2 .task {
+  width: 100%;
+  line-height: 3rem;
+  height: 3rem;
+  border: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.container .display .list-1 .list-2 .list-button {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #c1c1c3;
+  background-color: transparent;
+  outline: none;
+  margin: 1px 1rem 0 0;
+}
+
+.container .display .list-1 .list-3 {
+  width: 2.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.container .clear {
+  background-color: #e5e2e2;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  font-size: 15px;
+  color: #8f99b1;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
